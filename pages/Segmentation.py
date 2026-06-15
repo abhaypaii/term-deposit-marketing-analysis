@@ -129,7 +129,7 @@ with h2.popover(label='Segment-wise Aggregated Data', width='stretch'):
     st.dataframe(cluster_profile.set_index("Segment").T)
 
 st.divider()
-c1, temp1, c2, temp2,  c3, temp3, c4 = st.columns([1, 0.08, 1, 0.08, 1, 0.08, 1])
+c1, temp1, c2, temp2,  c3, temp3, c4 = st.columns([1, 0.04, 1, 0.04, 1, 0.08, 1])
 
 with c1:
     st.subheader('Segment A')
